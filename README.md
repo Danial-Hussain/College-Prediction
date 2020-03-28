@@ -12,7 +12,7 @@ In order to determine the top 15 universities in the United States, we will use 
 5. Yale University---------------------------------10. Duke University----------------------------15. University of Notre Dame
 
 ## Project Outline
-1. Web Scraper-Programmed web scraper to gather data. Used python along with the beautifulsoup and requests modules
+1. [Web Scraper](web_scraper.py)-Programmed web scraper to gather data. Used python along with the beautifulsoup and requests modules
 2. Machine Learning- Created a jupyter notebook where I performed data cleaning, feature engineering, and machine learning to create a classifier model that predicts college acceptance. Utilized pandas, numpy, sklearn and xgboost.
 3. Deployment- Created a web application, with the classifier model, using flask. Created a graphical user interface using CSS and HTML. 
 
