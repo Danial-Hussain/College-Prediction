@@ -12,7 +12,11 @@ In order to determine the top 15 universities in the United States, we will use 
 5. Yale University---------------------------------10. Duke University----------------------------15. University of Notre Dame
 
 ## Project Outline
-1. Web Scraper-Programmed web scraper to gather data. Used python along with the beautifulsoup and requests modules
-2. Machine Learning- Created a jupyter notebook where I performed data cleaning, feature engineering, and machine learning to create a classifier model that predicts college acceptance. Utilized pandas, numpy, sklearn and xgboost.
+1. [Web Scraper](web_scraper.py)-Programmed web scraper to gather data. Used python along with the beautifulsoup and requests modules
+2. [Machine Learning](College_Prediction_Model.ipynb)- Created a jupyter notebook where I performed data cleaning, feature engineering, and machine learning to create a classifier model that predicts college acceptance. Utilized pandas, numpy, sklearn and xgboost.
+3. [Deployment](app.py)- Created a web application, with the classifier model, using flask. Created a graphical user interface using CSS and HTML. 
 
 ## Running the Project
+1. Prerequisites: You must have the following libraries installed- pandas, numpy, sklearn, seaborn, re, xgboost, and flask.
+2. Navigate to the project home directory and run the following command: `python app.py`
+3. Flask will run on port 5000 and the http link will appear in the terminal.
