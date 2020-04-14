@@ -20,3 +20,4 @@ In order to determine the top 15 universities in the United States, we will use 
 1. Prerequisites: You must have the following libraries installed- pandas, numpy, sklearn, seaborn, re, xgboost, and flask.
 2. Navigate to the project home directory and run the following command: `python app.py`
 3. Flask will run on port 5000 and the http link will appear in the terminal.
+![Image of Screen](https://github.com/Danial-Hussain/College-Prediction/blob/master/Images/Capture.PNG)
